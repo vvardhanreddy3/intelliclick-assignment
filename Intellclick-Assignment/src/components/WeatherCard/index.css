@@ -1,0 +1,63 @@
+.item{
+    padding-top: 50px;
+    /* background-image: linear-gradient(to right, rgb(183, 201, 22), rgb(164, 201, 64), orange); */
+    height:300px ;
+   margin: 20px;
+    width: 600px;
+    /* border:  1px solid lightgray; */
+    text-align: center;
+   
+}
+
+.weather-heading{
+
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: bold;
+
+
+}
+
+.weather-item{
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 900;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+      width: 500px;
+      height: 350px;
+    }
+  
+    .weather-heading {
+      font-size: 24px;
+    }
+  
+    .weather-item {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .weather-list-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .item {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  
+    .weather-heading {
+      font-size: 20px;
+    }
+  
+    .weather-item {
+      font-size: 18px;
+    }
+  }

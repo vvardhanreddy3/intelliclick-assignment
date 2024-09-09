@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.weather-list-container{
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: center;
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/26/01/48/thunderstorm-3430471_1280.jpg");
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   
+
+}

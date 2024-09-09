@@ -1,0 +1,13 @@
+.city-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .city-link:hover {
+    background-color: #000000;
+    color: aliceblue;
+  }
+  .city-link {
+    display: block;
+    padding: 10px 0;
+  }
